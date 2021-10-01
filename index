@@ -1,120 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html>
+<head>
+	<title>My Resume</title>
+</head>
+<style>
+	#x{
+		text-align: right;
+	}
+</style>
+<body style="background-color:  #daf1ef">
+		<h1 style="text-align: center;"><b>RESUME</b></h1>
+		
+		<img src="E:\study\Nirma\WT\WT_precticals\photo.jpeg" height="130px" width="100px" alt="passport size photo" style="float: right;"><br><br><br><br><br><br>
 
-    <!-- Declared Vars To Go Here -->
+		<div id="x">
+		<p>.</p>
+		<h3>ROMIN M. TEJANI</h3>
+		<p >Address : 148,Maninagar Soc;<br>Simada Naka<br>Surat-395006</p>
+		</div>	
+		<h3><u><b>PERSONAL DETAILS :</b></u></h3>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+			Name : Tejani Romin Maheshbhai<br>
+  			Gender : Male<br>
+  			Mobile Number: 9624467537<br>
+  			DOB : 12/09/1999<br>
+  			Email Id : romin123@gmail.com
 
-    <!-- Metadata -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+		<h3><u><b>OBJECTIVE :</b></u></h3>
+		<ul>
+			<li>To seek a job in the IT industry where I can utilize my skills and technical knowledge for the organization’s and individual growth.</i>
+		</ul>
+		<h3><u><b>EDUCATION QUALIFICATION :</b></u></h3>
+		<table border="2px">
+			<tr>
+				<th>Class Degree</th>
+				<th>School / Collage</th>
+				<th>Board / University</th>
+				<th>Percentage</th>
+				<th>Passing Year</th>
+			</tr>
+			<tr>
+				<td>S.S.C</td>
+				<td>M.N.J.Patel</td>
+				<td>Gujarat Board</td>
+				<td>66.66%</td>	
+				<td>2015</td>
+			</tr>
+			<tr>
+				<td>H.S.C</td>
+				<td>Risen Modern School</td>
+				<td>Gujarat Board</td>
+				<td>82.00%</td>
+				<td>2017</td>
+			</tr>
+			<tr>
+				<td>B.C.A</td>
+				<td>SLICA</td>
+				<td>Gujarat University</td>
+				<td>71.00%</td>
+				<td>2020</td>
+			</tr>
+		</table>
 
-    <link rel="icon" href="mysource_files/favicon.ico">
+		<h3><u><b>PROJECT :</b></u></h3>
+		<ul>
+			<li>Making web-application of E-commerce site (Online Shopping).</li>
+		</ul>
 
-    <!-- Page Name and Site Name -->
-    <title>Page Name - Squiz Matrix HTML Example</title>
+		<h3><u><b>EXTRA - CURRICULAR ACTIVITY :</b></u></h3>
+		<ul>
+			<li>I participated in Annual Function & Drawing Competition organized by my school.</li>
+		</ul>
 
-    <!-- CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <link href="mysource_files/style.css" rel="stylesheet">
+		<h3><u><b>COMPUTER SKILLS :</b></u></h3>
+		<ul>
+			<li>Knowledge of programming languages like C,C++,java.</li>
+		  	<li>Primary knowledge of MS Word, Excel and PowerPoint.</li>
+		</ul>
 
-  </head>
+		<h3><u><b>ACHIEVEMENTS :</b></u></h3>
+		<ul>
+			<li>In the competition of Kho-Kho, I got a trophy in FY.BCA. </li>
+		</ul>
 
-  <body>
-
-    <div class="container">
-
-      <header class="header clearfix" style="background-color: #ffffff">
-
-        <!-- Main Menu -->
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-
-        <!-- Site Name -->
-        <h1 class="h3 text-muted">Site Name</h1>
-
-        <!-- Breadcrumbs -->
-        <ol class="breadcrumb">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Level 1</a></li>
-          <li class="active">Level 2</li>
-        </ol>
-
-      </header>
-
-      <div class="page-heading">
-
-        <!-- Page Heading -->
-        <h1>Page Heading</h1>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-sm-3">
-
-          <!-- Sub Navigation -->
-          <ul class="nav nav-pills nav-stacked">
-            <li><a href="#">Level 2</a></li>
-            <li class="active"><a href="#">Level 2</a>
-              <ul>
-                <li><a href="#">Level 3</a></li>
-                <li><a href="#">Level 3</a></li>
-                <li><a href="#">Level 3</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Level 2</a></li>
-          </ul>
-
-        </div>
-
-        <div class="col-sm-6">
-
-          <div class="page-contents">
-
-            <!-- Design Body -->
-            <h2>Sub Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-            <h4>Sub Heading</h4>
-            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-            <h4>Sub Heading</h4>
-            <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-
-          </div>
-
-        </div>
-
-        <div class="col-sm-3">
-
-          <!-- Login Section -->
-          <h2>Login</h2>
-
-          <!-- Search Section -->
-          <h2>Search</h2>
-
-          <!-- Nested Right Column Content -->
-
-        </div>
-
-      </div>
-
-      <footer class="footer">
-        <p class="pull-right">
-          <!-- Last Updated Design Area-->
-          Last Updated: Wednesday, January 6, 2016
-        </p>
-        <p>&copy; 2016 Company, Inc.</p>
-      </footer>
-
-    </div> <!-- /container -->
-
-  </body>
+		<h3><u><b>HOBBOIES :</b></u></h3>
+		<ul>
+			<li>Kabaddi, Kho-Kho,Volleyball
+			<li>Drawing</li>
+</li>
+		</ul>
+</body>
 </html>
